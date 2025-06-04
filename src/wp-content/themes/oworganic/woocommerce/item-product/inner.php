@@ -47,7 +47,7 @@ $image_size = isset($image_size) ? $image_size : 'woocommerce_thumbnail';
             <div class="add-to-cart-quickview-wrapper">
                 <?php if ( oworganic_get_config('show_quickview', false) ) { ?>
                     <div class="view hidden-xs">
-                        <a href="javascript:void(0);" class="quickview" data-product_id="<?php echo esc_attr($product_id); ?>">
+                        <a href="javascript:void(0);" class="quickview custom_button" data-product_id="<?php echo esc_attr($product_id); ?>">
                             <i class="ti-eye icon-action"></i>
                             <span class="text"><?php esc_html_e('Quickview', 'oworganic'); ?></span>
                         </a>
