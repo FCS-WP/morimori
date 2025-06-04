@@ -5847,7 +5847,7 @@ button:focus,
 }
 @media (min-width: 1400px) {
   .megamenu > li {
-    margin-right: 40px;
+    margin-right: 25px;
   }
   .rtl .megamenu > li {
     margin-left: 40px;

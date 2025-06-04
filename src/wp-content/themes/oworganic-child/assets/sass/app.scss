@@ -1,0 +1,75 @@
+#our_signature_bakes​, #the_full_counter{
+    .products{
+        > div.product{
+            width: 25%;
+            .product-block{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+#image_gallery{
+    .left-side{
+        .elementor-widget-image{
+            height: 100%;
+            position: relative;
+            > div{
+                height: 100%;
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .right-side{
+
+    }
+    .elementor-widget-image{
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .elementor-widget-button{
+        a.elementor-button{
+            background: none;
+            > span{
+                position: relative;
+                &:before{
+                    content: "";
+                    bottom: -2px;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background: white;
+                    position: absolute;
+                    transition: all 0.3s ease;
+                }
+            }
+            &:hover{
+                span{
+                    &:before{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#reviews{
+    .info-testimonial{
+        .job{
+            font-size: 14px;
+        }
+    }
+}
