@@ -32,56 +32,56 @@
     }
 }
 
-#header_bottom{
-    .megamenu{
-        position: relative;
-        > li{
-            > a{
-                font-size: 14px;
-            }
-            &.dropdown{
-                position: static;
-                .caret{
-                    display: none;
-                }
-            }
-            > .dropdown-menu{
-                float: none;
-                left: 0;
-                display: flex;
-                min-width: auto;
-                background: #FFFBF4;
-                > li {
-                    + li{
-                        padding-left: 25px;
-                    }
-                    > a{
-                        font-weight: bold;
-                        color: var(--oworganic-heading-color)
-                    }
-                    > ul{
-                        background: #FFFBF4;
-                        &.dropdown-menu{
-                            float: none;
-                            position: static;
-                            opacity: 1;
-                            visibility: visible;
-                            width: 100%;
-                            height: auto;
-                            min-width:auto;
-                            transform: none;
-                            box-shadow: none;
-                            padding: 20px 0 0 0;
-                            &:before{
-                                display: none;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+// #header_bottom{
+//     .megamenu{
+//         position: relative;
+//         > li{
+//             > a{
+//                 font-size: 14px;
+//             }
+//             &.dropdown{
+//                 position: static;
+//                 .caret{
+//                     display: none;
+//                 }
+//             }
+//             > .dropdown-menu{
+//                 float: none;
+//                 left: 0;
+//                 display: flex;
+//                 min-width: auto;
+//                 background: #FFFBF4;
+//                 > li {
+//                     + li{
+//                         padding-left: 25px;
+//                     }
+//                     > a{
+//                         font-weight: bold;
+//                         color: var(--oworganic-heading-color)
+//                     }
+//                     > ul{
+//                         background: #FFFBF4;
+//                         &.dropdown-menu{
+//                             float: none;
+//                             position: static;
+//                             opacity: 1;
+//                             visibility: visible;
+//                             width: 100%;
+//                             height: auto;
+//                             min-width:auto;
+//                             transform: none;
+//                             box-shadow: none;
+//                             padding: 20px 0 0 0;
+//                             &:before{
+//                                 display: none;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 #apus-header-mobile{
     .logo{
